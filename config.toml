@@ -1,3 +1,161 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "/"
+languageCode = "ru"
+title = "Аргонавт34"
+theme = "hugo-strata-theme"
+disqusShortname = "spf13"
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Данил"
+	description = "Сварочные работы, художественная ковка"
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add read time estimates in the format "X min read"
+	show_read_time = false
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "avatar.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "Вот какой цветочек,<br> может заебенить **Данила кузнец**<br> из ~~пота и крови~~ металла."
+		# The icons will be shown if you enter your username
+		twitter = ""
+		github = "unbel"
+		gitlab = ""
+		dribbble = ""
+		facebook = ""
+		googleplus = ""
+		flickr = ""
+		linkedin = ""
+		vk="https://vk.com/id17270767"
+
+
+		copyright = [
+			"&copy; John Doe",
+			"Design: [HTML5 UP](//html5up.net)",
+			"Demo Images: [Unsplash](//unsplash.com/)"
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "СВАРОЧНЫЕ РАБОТЫ, АРГОННАЯ СВАРКА, НА ЗАКАЗ, КАЧЕСТВЕННО, НЕДОРОГО."
+		content = "Наши летчики славные ребята небо их дом. Они не грустят глядя на мир с высоты. "
+
+
+	[params.portfolio]
+		hide  = false
+		title = "Сварка и творчество"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			image = "fulls/01.jpg"
+			thumb = "thumbs/01.jpg"
+			title = "Розы из металла"
+			description = "Подобные штуки можно заказать по почте. Заполните форму обратной связи, с вашей заявкой или вопросом"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/02.jpg"
+			thumb = "thumbs/02.jpg"
+			title = "Перила"
+			description = "Заполните форму обратной связи, с вашей заявкой или вопросом"
+
+		[[params.portfolio.gallery]]
+				image = "fulls/08.jpg"
+				thumb = "thumbs/08.jpg"
+				title = "Цветок на перилах"
+				description = "Заполните форму обратной связи, с вашей заявкой или вопросом"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/03.jpg"
+			thumb = "thumbs/03.jpg"
+			title = "Цветок из металла"
+			description = "Подобные штуки можно заказать по почте. Заполните форму обратной связи, с ваше заявкой или вопросом"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/04.jpg"
+			thumb = "thumbs/04.jpg"
+			title = "Роза металлическая"
+			description = "Подобные штуки можно заказать по почте. Заполните форму обратной связи, с вашей заявкой или вопросом"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/05.jpg"
+			thumb = "thumbs/05.jpg"
+			title = "Мечеть на кладбище"
+			description = "Металлоконструкция.Заполните форму обратной связи, с вашей заявкой или вопросом"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/06.jpg"
+			thumb = "thumbs/06.jpg"
+			title = "Стильные перила"
+			description = "Это художественная сварка чувак.Заполните форму обратной связи, с вашей заявкой или вопросом"
+
+		[[params.portfolio.gallery]]
+				image = "fulls/07.jpg"
+				thumb = "thumbs/07.jpg"
+				title = "Аргонная сварка"
+				description = "Заполните форму обратной связи, с вашей заявкой или вопросом"
+
+	[params.recentposts]
+		hide  = false
+		title = "Новости"
+
+	[params.contact]
+		hide  = false
+		title = "Будьте Здоровы"
+		content = "Оставляйте свои заказы. Пишите вопросы, предложения, отзывы, пожелания:"
+
+		# This can be exact coordinates or a searchable address in google maps
+		gmaps_address = "48.797959, 44.746204"
+		address = [
+			"Адрес: Россия",
+			"г. Волжский",
+			"Волгоградская обл., индекс 404130"
+			]
+		phone = "000-000-0000"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "hello@example.com"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Имя"
+			email = "Эл.почта"
+			message = "Сообщение"
+			submit = "Отправить сообщение"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+	name = "Главная"
+	url  = "/"
+	weight = 10
+
+[[menu.main]]
+	name = "Блог сварочных новостей"
+	url  = "post/"
+	weight = 0
