@@ -44,8 +44,8 @@ paginate = 10
 
 		copyright = [
 			"&copy; John Doe",
-			"Design: [HTML5 UP](//html5up.net)",
-			"Demo Images: [Unsplash](//unsplash.com/)"
+			"Vkontakte: [HTML5 UP](//vk.com/id17270767/)",
+			"More Images: [Unsplash](//github.com/Unbel/argonavt/tree/master/static/images/fulls/)"
 		]
 
 
@@ -138,7 +138,7 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "hello@example.com"
+		email = "olegibnserge@gmail.com"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
