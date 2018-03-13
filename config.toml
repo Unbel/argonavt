@@ -2,9 +2,9 @@ baseurl = "/"
 languageCode = "ru"
 title = "Аргонавт34"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = "Francais"
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-115605660-1"
 # Define how many posts should appear on a site
 paginate = 10
 
@@ -12,7 +12,7 @@ paginate = 10
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Данил"
-	description = "Сварочные работы, художественная ковка"
+	description = "Сварочные работы, художественная ковка. Кузнечные дела."
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
